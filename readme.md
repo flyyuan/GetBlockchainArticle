@@ -1,0 +1,1 @@
+# bcdataSentence1.txt为区块链语料库，爬取国内知名区块链资讯门户
