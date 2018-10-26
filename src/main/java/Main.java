@@ -20,7 +20,7 @@ import java.util.List;
  */
 public class Main {
     public static void main(String[] args) {
-            ArtData("./bcdataSentence.txt");
+            ArtData("./bcdataSentence1.txt");
     }
 
     private static DataList GetBMList(int i){
@@ -39,7 +39,7 @@ public class Main {
             e.printStackTrace();
         }
         PrintWriter pw = new PrintWriter(fw);
-        for (int page = 28; page < 230; page++){
+        for (int page = 0; page < 230; page++){
             DataList dataList = GetBMList(page);
             List<DataList.ListBean> list = dataList.getList();
             for(int i = 0; i < list.size(); i++){
